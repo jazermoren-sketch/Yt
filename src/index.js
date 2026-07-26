@@ -60,8 +60,7 @@ const commands = [
         {name:"المغرب",value:"morocco"},
         {name:"العالم العربي",value:"arab"},
         {name:"أنمي",value:"anime"}
-      ))
-
+      )),
   new SlashCommandBuilder()
     .setName("admin-question")
     .setDescription("إدارة الأسئلة")
@@ -77,7 +76,10 @@ const commands = [
       .addStringOption(o=>o.setName("explanation").setDescription("شرح الجواب").setRequired(false)))
     .addSubcommand(s => s.setName("list").setDescription("عرض عدد الأسئلة"))
     .addSubcommand(s => s.setName("delete").setDescription("حذف سؤال")
-      .addStringOption(o=>o.setName("id").setDescription("معرف السؤال").setRequired(true)))
+      .addStringOption(o=>o.setName("id").setDescription("معرف السؤال").setRequired(true))),
+  new SlashCommandBuilder()
+    .setName("question-bank")
+    .setDescription("إحصائيات بنك الأسئلة")
 ].map(c => c.toJSON());
 
 async function registerCommands() {
@@ -107,5 +109,3 @@ client.on("interactionCreate", async interaction => {
 });
 
 registerCommands().then(() => client.login(process.env.DISCORD_TOKEN)).catch(console.error);
-
-  new SlashCommandBuilder().setName("question-bank").setDescription("إحصائيات بنك الأسئلة"),
