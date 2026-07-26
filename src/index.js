@@ -9,11 +9,12 @@ const {
   SlashCommandBuilder
 } = require("discord.js");
 
-const fs = require("fs");
-const path = require("path");
-
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds]
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ]
 });
 
 client.commands = new Collection();
@@ -105,6 +106,19 @@ client.on("interactionCreate", async interaction => {
     const msg = "❌ وقع خطأ غير متوقع. حاول مرة أخرى.";
     if (interaction.replied || interaction.deferred) await interaction.followUp({content:msg,ephemeral:true});
     else await interaction.reply({content:msg,ephemeral:true});
+  }
+});
+
+client.on("messageCreate", async message => {
+  if (message.author.bot || !message.guild) return;
+  if (!message.content.trim().startsWith("!")) return;
+
+  try {
+    const { handlePrefixMessage } = require("./game/quiz");
+    await handlePrefixMessage(message);
+  } catch (err) {
+    console.error("Prefix command error:", err);
+    await message.reply("❌ وقع خطأ أثناء تنفيذ الأمر.");
   }
 });
 
