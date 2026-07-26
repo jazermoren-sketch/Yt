@@ -1,0 +1,55 @@
+{
+  "maxLevel": 100,
+  "baseXP": 100,
+  "growth": 1.25,
+  "ranks": [
+    {
+      "minLevel": 1,
+      "maxLevel": 4,
+      "name": "مبتدئ",
+      "emoji": "🌱"
+    },
+    {
+      "minLevel": 5,
+      "maxLevel": 9,
+      "name": "متعلم",
+      "emoji": "📚"
+    },
+    {
+      "minLevel": 10,
+      "maxLevel": 19,
+      "name": "متمرس",
+      "emoji": "⚡"
+    },
+    {
+      "minLevel": 20,
+      "maxLevel": 34,
+      "name": "خبير",
+      "emoji": "🔥"
+    },
+    {
+      "minLevel": 35,
+      "maxLevel": 49,
+      "name": "محترف",
+      "emoji": "💎"
+    },
+    {
+      "minLevel": 50,
+      "maxLevel": 74,
+      "name": "أسطورة",
+      "emoji": "👑"
+    },
+    {
+      "minLevel": 75,
+      "maxLevel": 99,
+      "name": "عبقري",
+      "emoji": "🧠"
+    },
+    {
+      "minLevel": 100,
+      "maxLevel": 100,
+      "name": "ملك المسابقات",
+      "emoji": "🏆"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "hints": {
+    "remove_wrong": {
+      "name": "حذف إجابتين",
+      "emoji": "✂️",
+      "cost": 2,
+      "description": "يحذف إجابتين خاطئتين"
+    },
+    "reveal_letter": {
+      "name": "كشف حرف",
+      "emoji": "🔤",
+      "cost": 3,
+      "description": "يكشف حرفاً من الإجابة الصحيحة"
+    },
+    "category_hint": {
+      "name": "تلميح التصنيف",
+      "emoji": "🧠",
+      "cost": 2,
+      "description": "يعطيك معلومة تساعدك على معرفة الجواب"
+    },
+    "fifty_fifty": {
+      "name": "50/50",
+      "emoji": "🎯",
+      "cost": 4,
+      "description": "يبقي جوابين فقط"
+    }
+  },
+  "maxHintsPerQuestion": 2,
+  "winHintReward": 1,
+  "streakHintBonus": 1
+}

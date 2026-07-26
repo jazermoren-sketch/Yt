@@ -1,0 +1,9 @@
+{
+  "provider": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "apiKeyEnv": "OPENROUTER_API_KEY",
+  "timeoutMs": 60000,
+  "maxQuestionsPerRequest": 20,
+  "autoSaveAcceptedQuestions": true,
+  "requireAdmin": true
+}

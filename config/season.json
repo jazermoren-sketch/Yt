@@ -1,0 +1,27 @@
+{
+  "seasonDurationDays": 30,
+  "seasonName": "الموسم الأول",
+  "seasonNumber": 1,
+  "rewards": [
+    {
+      "rank": 1,
+      "reward": "🏆 كأس الموسم + 5000 XP + 500 نقطة"
+    },
+    {
+      "rank": 2,
+      "reward": "🥈 3000 XP + 300 نقطة"
+    },
+    {
+      "rank": 3,
+      "reward": "🥉 2000 XP + 200 نقطة"
+    },
+    {
+      "rank": 4,
+      "reward": "⭐ 1000 XP + 100 نقطة"
+    },
+    {
+      "rank": 5,
+      "reward": "⭐ 500 XP + 50 نقطة"
+    }
+  ]
+}

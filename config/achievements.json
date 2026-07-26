@@ -1,0 +1,51 @@
+[
+  {
+    "id": "first_win",
+    "name": "أول انتصار",
+    "description": "اربح أول لعبة",
+    "emoji": "🏆",
+    "xp": 100
+  },
+  {
+    "id": "streak_3",
+    "name": "بداية السلسلة",
+    "description": "حقق Streak من 3 إجابات صحيحة",
+    "emoji": "🔥",
+    "xp": 150
+  },
+  {
+    "id": "streak_10",
+    "name": "لا يمكن إيقافه",
+    "description": "حقق Streak من 10 إجابات صحيحة",
+    "emoji": "⚡",
+    "xp": 500
+  },
+  {
+    "id": "quiz_50",
+    "name": "عاشق الأسئلة",
+    "description": "أجب عن 50 سؤالاً",
+    "emoji": "🧠",
+    "xp": 500
+  },
+  {
+    "id": "quiz_100",
+    "name": "خبير المسابقات",
+    "description": "أجب عن 100 سؤال",
+    "emoji": "👑",
+    "xp": 1000
+  },
+  {
+    "id": "daily_7",
+    "name": "أسبوع كامل",
+    "description": "أكمل التحدي اليومي 7 أيام متتالية",
+    "emoji": "📅",
+    "xp": 300
+  },
+  {
+    "id": "category_master",
+    "name": "سيد التصنيف",
+    "description": "حقق 100 نقطة في تصنيف واحد",
+    "emoji": "🎯",
+    "xp": 400
+  }
+]

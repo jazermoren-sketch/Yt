@@ -1,0 +1,23 @@
+{
+  "dailyQuestions": 5,
+  "dailyRewardXP": 100,
+  "dailyRewardPoints": 50,
+  "streakRewards": {
+    "3": {
+      "xp": 100,
+      "points": 50
+    },
+    "7": {
+      "xp": 300,
+      "points": 150
+    },
+    "14": {
+      "xp": 750,
+      "points": 400
+    },
+    "30": {
+      "xp": 2000,
+      "points": 1000
+    }
+  }
+}

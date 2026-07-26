@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o-mini",
+  "language": "ar",
+  "defaultCount": 5,
+  "moderation": {
+    "enabled": true,
+    "rejectEmptyAnswers": true,
+    "rejectDuplicates": true,
+    "requireExplanation": true
+  },
+  "generationRules": {
+    "multipleChoiceOptions": 4,
+    "arabicOnly": true,
+    "includeHint": true,
+    "includeExplanation": true,
+    "includeDifficulty": true,
+    "includeCategory": true
+  }
+}

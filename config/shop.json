@@ -1,0 +1,42 @@
+{
+  "currencyName": "Quiz Coins",
+  "currencyEmoji": "🪙",
+  "items": {
+    "hint_pack": {
+      "name": "حزمة تلميحات",
+      "emoji": "💡",
+      "price": 100,
+      "type": "hint_tokens",
+      "amount": 5
+    },
+    "fifty_fifty": {
+      "name": "تلميح 50/50",
+      "emoji": "🎯",
+      "price": 150,
+      "type": "hint_tokens",
+      "amount": 2
+    },
+    "badge_quiz_master": {
+      "name": "شارة Quiz Master",
+      "emoji": "🏆",
+      "price": 1000,
+      "type": "badge",
+      "badge": "quiz_master"
+    },
+    "badge_fire": {
+      "name": "شارة Fire Player",
+      "emoji": "🔥",
+      "price": 750,
+      "type": "badge",
+      "badge": "fire_player"
+    },
+    "season_boost": {
+      "name": "Season XP Boost",
+      "emoji": "⚡",
+      "price": 500,
+      "type": "boost",
+      "multiplier": 1.25,
+      "durationHours": 24
+    }
+  }
+}

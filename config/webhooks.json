@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "webhookName": "Quiz Master",
+  "webhookAvatar": "",
+  "username": "🧠 Quiz Master",
+  "avatarURL": "",
+  "deleteOldWebhookMessages": false
+}
