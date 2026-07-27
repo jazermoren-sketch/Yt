@@ -1,0 +1,7 @@
+*.cpk filter=lfs diff=lfs merge=lfs -text
+*.pmf filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.iso filter=lfs diff=lfs merge=lfs -text
+*.cso filter=lfs diff=lfs merge=lfs -text

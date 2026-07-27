@@ -1,0 +1,8 @@
+{
+  "project": "Olympique Safi PES PPSSPP Patch",
+  "target_team": "Olympique Safi",
+  "replacement_team": "Boca Juniors",
+  "game_format": "folder",
+  "iso_required": false,
+  "status": "ready for original game files, TEXTURES, and SAVEDATA"
+}
